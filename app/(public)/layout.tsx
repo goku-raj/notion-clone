@@ -1,13 +1,13 @@
 const PublicLayout = ({
-    children
+  children
 }: {
-    children: React.ReactNode;
+  children: React.ReactNode;
 }) => {
-    return (
-        <div className="dark:bg-[#1F1F1F] h-fit">
-            {children}
-        </div>
-    );
+  return (
+    <div className="h-fit dark:bg-[#1F1F1F]">
+      {children}
+    </div>
+  );
 }
 
-export default PublicLayout; 
+export default PublicLayout;
